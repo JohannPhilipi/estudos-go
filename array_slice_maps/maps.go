@@ -12,4 +12,7 @@ func main() {
 	mp := make(map[int]int)
 	mp[1] = 20
 	fmt.Println(mp[1])
+
+	a := make([]int, 3, 9)
+	fmt.Println(len(a))
 }
